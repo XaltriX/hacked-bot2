@@ -62,26 +62,70 @@ CUSTOM_REPLY_TEXT = """
 
 # Updated buttons with all channels and bots from your website
 CUSTOM_REPLY_BUTTONS = InlineKeyboardMarkup(inline_keyboard=[
-    # Channels Section
-    [InlineKeyboardButton(text="🎬 Insta Reels Viral Videos", url="https://t.me/+5-VqLSW75i44ZGU0")],
-    [InlineKeyboardButton(text="💎 Premium Leaks & Desi MMS Free", url="https://t.me/+hWUrLTuq12lhNzc1")],
-    [InlineKeyboardButton(text="📱 Daily Dose of Free MMS", url="https://t.me/+G0che48_Vxg4MGZk")],
-    [InlineKeyboardButton(text="🌑 Dark W3b Videos", url="https://t.me/+xleTT84J9Kk3YzI0")],
-    [InlineKeyboardButton(text="🎥 Movie Request Group", url="https://t.me/MOVIE_REQUESTX")],
-    [InlineKeyboardButton(text="🍿 New Latest Release Movies", url="https://t.me/+LGiV0q_QhchmMGVl")],
-    [InlineKeyboardButton(text="🍿 Premium & Mod Apks", url="https://t.me/+JWXFDh8fhQczOGY1")],
-    
-    # Bots Section
-    [InlineKeyboardButton(text="🤖 Movie Master Bot", url="https://t.me/MovieMasterRobot")],
-    [InlineKeyboardButton(text="🤖 WildXBot", url="https://t.me/WildXxRoBot")],
-    [InlineKeyboardButton(text="🤖 TeraBox Download Bot", url="https://t.me/TeraBoxDownload3rBot")],
-    
-    # Website Link
-    [InlineKeyboardButton(text="🌐 Visit Linkzwallah.com", url="https://linkzwallah.netlify.app/")],
-    
-    # Contact
-    [InlineKeyboardButton(text="📬 Contact Admin", url="https://t.me/NeonGhost")]
+
+    # 🎞️ MOVIES / ENTERTAINMENT
+    [InlineKeyboardButton(
+        text="🎞️ 𝐈𝐧𝐬𝐭𝐚 𝐑𝐞𝐞𝐥𝐬 • 𝐕𝐢𝐫𝐚𝐥 𝐂𝐮𝐭𝐬",
+        url="https://t.me/+5-VqLSW75i44ZGU0"
+    )],
+    [InlineKeyboardButton(
+        text="🍿 𝐋𝐚𝐭𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 • 𝐅𝐫𝐞𝐬𝐡 𝐃𝐫𝐨𝐩𝐬",
+        url="https://t.me/+LGiV0q_QhchmMGVl"
+    )],
+    [InlineKeyboardButton(
+        text="🎥 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 • 𝐂𝐢𝐧𝐞 𝐇𝐮𝐛",
+        url="https://t.me/MOVIE_REQUESTX"
+    )],
+
+    # 🩸 ADULT / UNDERGROUND
+    [InlineKeyboardButton(
+        text="🩸 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐋𝐞𝐚𝐤𝐬 • 𝐃𝐞𝐬𝐢 𝐕𝐚𝐮𝐥𝐭",
+        url="https://t.me/+DaFqTi9mZPdkMzJl"
+    )],
+    [InlineKeyboardButton(
+        text="🍷 𝐃𝐚𝐢𝐥𝐲 𝐌𝐌𝐒 • 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐃𝐫𝐨𝐩𝐬",
+        url="https://t.me/+luH2OAYzZ1Q1N2E0"
+    )],
+    [InlineKeyboardButton(
+        text="🕯️ 𝐃𝐚𝐫𝐤 𝐖𝟑𝐁 • 𝐔𝐧𝐝𝐞𝐫𝐠𝐫𝐨𝐮𝐧𝐝",
+        url="https://t.me/+xleTT84J9Kk3YzI0"
+    )],
+    [InlineKeyboardButton(
+        text="🍸 𝐀𝐝𝐮𝐥𝐭 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 • 𝐀𝐟𝐭𝐞𝐫 𝐇𝐨𝐮𝐫𝐬",
+        url="https://t.me/+Yl7Ftqk5SH1kNWY1"
+    )],
+
+    # ⚙️ TOOLS / APKS
+    [InlineKeyboardButton(
+        text="🪙 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 & 𝐌𝐨𝐝 𝐀𝐏𝐊𝐬",
+        url="https://t.me/+JWXFDh8fhQczOGY1"
+    )],
+
+    # 🤖 BOTS
+    [InlineKeyboardButton(
+        text="🛸 𝐌𝐨𝐯𝐢𝐞 𝐌𝐚𝐬𝐭𝐞𝐫 • 𝐁𝐨𝐭",
+        url="https://t.me/MovieMasterRobot"
+    )],
+    [InlineKeyboardButton(
+        text="🦈 𝐖𝐢𝐥𝐝𝐗 • 𝐔𝐭𝐢𝐥𝐢𝐭𝐲 𝐁𝐨𝐭",
+        url="https://t.me/WildXxRoBot"
+    )],
+    [InlineKeyboardButton(
+        text="📦 𝐓𝐞𝐫𝐚𝐁𝐨𝐱 • 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫",
+        url="https://t.me/TeraBoxDownload3rBot"
+    )],
+
+    # 🌐 / 📬
+    [InlineKeyboardButton(
+        text="🌍 𝐋𝐢𝐧𝐤𝐳𝐰𝐚𝐥𝐥𝐚𝐡 • 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥",
+        url="https://linkzwallah.netlify.app/"
+    )],
+    [InlineKeyboardButton(
+        text="🕶️ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 • 𝐀𝐝𝐦𝐢𝐧",
+        url="https://t.me/NeonGhost"
+    )],
 ])
+
 user_ids = set()             # user_id (int)
 bots = {}                    # username -> Bot instance
 bot_stats = {}               # username -> {'messages': int, 'users': set}

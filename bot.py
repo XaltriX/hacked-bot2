@@ -84,7 +84,7 @@ CUSTOM_REPLY_BUTTONS = InlineKeyboardMarkup(inline_keyboard=[
     )],
     [InlineKeyboardButton(
         text="🍷 𝐃𝐚𝐢𝐥𝐲 𝐌𝐌𝐒 • 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐃𝐫𝐨𝐩𝐬",
-        url="https://t.me/+luH2OAYzZ1Q1N2E0"
+        url="https://t.me/+6zSfsoGWf0YyYjQ1"
     )],
     [InlineKeyboardButton(
         text="🕯️ 𝐃𝐚𝐫𝐤 𝐖𝟑𝐁 • 𝐔𝐧𝐝𝐞𝐫𝐠𝐫𝐨𝐮𝐧𝐝",
